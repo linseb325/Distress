@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01759EB95678E32E7A84B151 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9B928D49F10745E9B37832 /* Pods.framework */; };
 		688305A81C122CCA00566E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688305A71C122CCA00566E97 /* AppDelegate.swift */; };
 		688305AA1C122CCA00566E97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688305A91C122CCA00566E97 /* ViewController.swift */; };
 		688305AD1C122CCA00566E97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 688305AB1C122CCA00566E97 /* Main.storyboard */; };
@@ -20,6 +21,10 @@
 		688305CD1C122CCA00566E97 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688305CC1C122CCA00566E97 /* ExtensionDelegate.swift */; };
 		688305CF1C122CCA00566E97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 688305CE1C122CCA00566E97 /* Assets.xcassets */; };
 		688305E11C122E8C00566E97 /* CustomCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688305E01C122E8C00566E97 /* CustomCVCell.swift */; };
+		688305E41C1620FC00566E97 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688305E21C1620FC00566E97 /* LoginVC.swift */; };
+		688305E51C1620FC00566E97 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688305E31C1620FC00566E97 /* RegisterVC.swift */; };
+		688305E71C16242E00566E97 /* PhoneCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688305E61C16242E00566E97 /* PhoneCore.swift */; };
+		688305E91C16269300566E97 /* NewMessageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688305E81C16269300566E97 /* NewMessageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +70,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B9B928D49F10745E9B37832 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		688305A41C122CCA00566E97 /* Distress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Distress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		688305A71C122CCA00566E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		688305A91C122CCA00566E97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +88,12 @@
 		688305CE1C122CCA00566E97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		688305D01C122CCA00566E97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		688305E01C122E8C00566E97 /* CustomCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCVCell.swift; sourceTree = "<group>"; };
+		688305E21C1620FC00566E97 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		688305E31C1620FC00566E97 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		688305E61C16242E00566E97 /* PhoneCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCore.swift; sourceTree = "<group>"; };
+		688305E81C16269300566E97 /* NewMessageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageVC.swift; sourceTree = "<group>"; };
+		C2B392EA57C7A8D260801634 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F67566E3EEE73871194C7E80 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01759EB95678E32E7A84B151 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +122,8 @@
 				688305BA1C122CCA00566E97 /* Distress WatchKit App */,
 				688305C91C122CCA00566E97 /* Distress WatchKit Extension */,
 				688305A51C122CCA00566E97 /* Products */,
+				A837F7A8DE73816B1B0F63D3 /* Pods */,
+				E96AABABF97BD661E1A41482 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +140,9 @@
 		688305A61C122CCA00566E97 /* Distress */ = {
 			isa = PBXGroup;
 			children = (
+				688305E61C16242E00566E97 /* PhoneCore.swift */,
+				688305E21C1620FC00566E97 /* LoginVC.swift */,
+				688305E31C1620FC00566E97 /* RegisterVC.swift */,
 				688305A71C122CCA00566E97 /* AppDelegate.swift */,
 				688305A91C122CCA00566E97 /* ViewController.swift */,
 				688305AB1C122CCA00566E97 /* Main.storyboard */,
@@ -132,6 +150,7 @@
 				688305B01C122CCA00566E97 /* LaunchScreen.storyboard */,
 				688305B31C122CCA00566E97 /* Info.plist */,
 				688305E01C122E8C00566E97 /* CustomCVCell.swift */,
+				688305E81C16269300566E97 /* NewMessageVC.swift */,
 			);
 			path = Distress;
 			sourceTree = "<group>";
@@ -157,6 +176,23 @@
 			path = "Distress WatchKit Extension";
 			sourceTree = "<group>";
 		};
+		A837F7A8DE73816B1B0F63D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2B392EA57C7A8D260801634 /* Pods.debug.xcconfig */,
+				F67566E3EEE73871194C7E80 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E96AABABF97BD661E1A41482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B9B928D49F10745E9B37832 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,10 +200,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 688305DB1C122CCA00566E97 /* Build configuration list for PBXNativeTarget "Distress" */;
 			buildPhases = (
+				63EF4D6A7216D0E679931FD7 /* Check Pods Manifest.lock */,
 				688305A01C122CCA00566E97 /* Sources */,
 				688305A11C122CCA00566E97 /* Frameworks */,
 				688305A21C122CCA00566E97 /* Resources */,
 				688305DA1C122CCA00566E97 /* Embed Watch Content */,
+				BBE18C1F9873CADE1BCD95B9 /* Embed Pods Frameworks */,
+				7DB2CF77EFDF0A7BC7C54F17 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,6 +323,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63EF4D6A7216D0E679931FD7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DB2CF77EFDF0A7BC7C54F17 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE18C1F9873CADE1BCD95B9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		688305A01C122CCA00566E97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -291,7 +378,11 @@
 			files = (
 				688305E11C122E8C00566E97 /* CustomCVCell.swift in Sources */,
 				688305AA1C122CCA00566E97 /* ViewController.swift in Sources */,
+				688305E41C1620FC00566E97 /* LoginVC.swift in Sources */,
+				688305E71C16242E00566E97 /* PhoneCore.swift in Sources */,
 				688305A81C122CCA00566E97 /* AppDelegate.swift in Sources */,
+				688305E51C1620FC00566E97 /* RegisterVC.swift in Sources */,
+				688305E91C16269300566E97 /* NewMessageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +581,7 @@
 		};
 		688305DC1C122CCA00566E97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B392EA57C7A8D260801634 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Distress/Info.plist;
@@ -501,6 +593,7 @@
 		};
 		688305DD1C122CCA00566E97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67566E3EEE73871194C7E80 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Distress/Info.plist;
@@ -529,6 +622,7 @@
 				688305D51C122CCA00566E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		688305D71C122CCA00566E97 /* Build configuration list for PBXNativeTarget "Distress WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +631,7 @@
 				688305D91C122CCA00566E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		688305DB1C122CCA00566E97 /* Build configuration list for PBXNativeTarget "Distress" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +640,7 @@
 				688305DD1C122CCA00566E97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
