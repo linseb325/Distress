@@ -18,8 +18,7 @@ class LoginVC: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        PhoneCore.sendSMS("2623536205", message: "this is another test")
-        /*
+/*
         let user = NSUserDefaults.standardUserDefaults().valueForKey("currentUser")
         if(user != nil)
         {
@@ -64,7 +63,6 @@ class LoginVC: UIViewController
                     // Do stuff after successful login.
                   //  let defaults = NSUserDefaults.standardUserDefaults()
                     //defaults.setValue(user, forKey: "currentUser")
-                    
                     PhoneCore.currentUser = user
                     let uhvc = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
                     self.presentViewController(uhvc, animated: true, completion: nil)

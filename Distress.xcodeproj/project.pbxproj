@@ -140,17 +140,17 @@
 		688305A61C122CCA00566E97 /* Distress */ = {
 			isa = PBXGroup;
 			children = (
+				688305AB1C122CCA00566E97 /* Main.storyboard */,
 				688305E61C16242E00566E97 /* PhoneCore.swift */,
 				688305E21C1620FC00566E97 /* LoginVC.swift */,
 				688305E31C1620FC00566E97 /* RegisterVC.swift */,
-				688305A71C122CCA00566E97 /* AppDelegate.swift */,
 				688305A91C122CCA00566E97 /* ViewController.swift */,
-				688305AB1C122CCA00566E97 /* Main.storyboard */,
+				688305E81C16269300566E97 /* NewMessageVC.swift */,
+				688305A71C122CCA00566E97 /* AppDelegate.swift */,
 				688305AE1C122CCA00566E97 /* Assets.xcassets */,
 				688305B01C122CCA00566E97 /* LaunchScreen.storyboard */,
 				688305B31C122CCA00566E97 /* Info.plist */,
 				688305E01C122E8C00566E97 /* CustomCVCell.swift */,
-				688305E81C16269300566E97 /* NewMessageVC.swift */,
 			);
 			path = Distress;
 			sourceTree = "<group>";

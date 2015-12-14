@@ -54,6 +54,8 @@ class NewMessageVC: UIViewController
             obj.saveInBackgroundWithBlock({ (success: Bool, error: NSError?) -> Void in
                 if(success)
                 {
+                    let uhvc = self.storyboard?.instantiateViewControllerWithIdentifier("ViewController") as! ViewController
+                    self.presentViewController(uhvc, animated: true, completion: nil)
                     self.dismissViewControllerAnimated(true, completion: nil)
                 }
                 else

@@ -13,17 +13,17 @@ import Alamofire
 class PhoneCore: NSObject
 {
     static var currentUser: PFUser!
-    static var theRowData  = [PFObject]()
+    static var theRowData = [PFObject]()
     
     static func sendSMS(to:String, message: String)
     {
         let parameters = [
             "To": to,
-            "From": "+17076825461",
-            "Body":message
+            "From": "+19205426123",
+            "Body": message
         ]
         
-        Alamofire.request(.POST, "https://api.twilio.com/2010-04-01/Accounts/AC716ff9a9c23fa222caf033ccb359ef49/Messages.json", parameters: parameters, encoding: .URL).authenticate(user: "AC716ff9a9c23fa222caf033ccb359ef49", password: "15610b105792aa2fb1cbd87b8e3b5dd1")
+        Alamofire.request(.POST, "https://api.twilio.com/2010-04-01/Accounts/ACb30052be71699f3eaf75976981957117/Messages.json", parameters: parameters, encoding: .URL).authenticate(user: "ACb30052be71699f3eaf75976981957117", password: "1a57be7321501f48fa36251b734584ac")
 
     }
     static func showAlert(title: String, message: String, presentingViewController: UIViewController, onScreenDelay: Double)
@@ -38,4 +38,5 @@ class PhoneCore: NSObject
         })
 
     }
+    
 }
